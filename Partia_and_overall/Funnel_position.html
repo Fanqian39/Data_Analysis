@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="20690c83c4ec4b7d92712ff2d0c6ca41" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_20690c83c4ec4b7d92712ff2d0c6ca41 = echarts.init(
+            document.getElementById('20690c83c4ec4b7d92712ff2d0c6ca41'), 'white', {renderer: 'canvas'});
+        var option_20690c83c4ec4b7d92712ff2d0c6ca41 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "funnel",
+                "data": [
+                    {
+                        "name": "HR\u7b5b\u9009100%",
+                        "value": 10000
+                    },
+                    {
+                        "name": "\u4e00\u9762\u5019\u9009\u4eba35.1%",
+                        "value": 3512
+                    },
+                    {
+                        "name": "\u4e8c\u9762\u5019\u9009\u4eba26.7%",
+                        "value": 936
+                    },
+                    {
+                        "name": "\u4e09\u9762\u5019\u9009\u4eba47.5%",
+                        "value": 445
+                    },
+                    {
+                        "name": "\u4e09\u9762\u60c5\u51b584.3%",
+                        "value": 375
+                    },
+                    {
+                        "name": "\u63a5\u53d7offer61.3%",
+                        "value": 230
+                    }
+                ],
+                "min": 0,
+                "max": 10000,
+                "minSize": "0%",
+                "maxSize": "100%",
+                "orient": "vertical",
+                "sort": "descending",
+                "gap": 10,
+                "legendHoverLink": true,
+                "funnelAlign": "center",
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "margin": 8,
+                    "valueAnimation": false
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "enterable": false,
+                    "confine": false,
+                    "appendToBody": false,
+                    "transitionDuration": 0.4,
+                    "formatter": "{a} <br/>{b} : {c}\u4eba",
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5,
+                    "order": "seriesAsc"
+                },
+                "itemStyle": {},
+                "selectedMode": false,
+                "zlevel": 0,
+                "z": 2,
+                "markPoint": {
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "color": "#fff",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "data": [
+                        {
+                            "name": "\u6700\u5927\u503c",
+                            "type": "max"
+                        }
+                    ]
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "currentIndex": 0,
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "progress": {},
+            "data": [
+                "\u4ea7\u54c1\u5c97\u4f4d",
+                "\u6280\u672f\u5c97\u4f4d",
+                "\u4eba\u529b\u5c97\u4f4d",
+                "\u8bbe\u8ba1\u5c97\u4f4d",
+                "\u8fd0\u8425\u5c97\u4f4d",
+                "\u603b\u8ba1\u5c97\u4f4d"
+            ]
+        },
+        "legend": [
+            {
+                "data": [
+                    "\u4e8c\u9762\u5019\u9009\u4eba26.7%",
+                    "\u63a5\u53d7offer61.3%",
+                    "\u4e09\u9762\u60c5\u51b584.3%",
+                    "\u4e00\u9762\u5019\u9009\u4eba35.1%",
+                    "\u4e09\u9762\u5019\u9009\u4eba47.5%",
+                    "HR\u7b5b\u9009100%"
+                ],
+                "selected": {},
+                "show": false,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderRadius": 0,
+                "pageButtonItemGap": 5,
+                "pageButtonPosition": "end",
+                "pageFormatter": "{current}/{total}",
+                "pageIconColor": "#2f4554",
+                "pageIconInactiveColor": "#aaa",
+                "pageIconSize": 15,
+                "animationDurationUpdate": 800,
+                "selector": false,
+                "selectorPosition": "auto",
+                "selectorItemGap": 7,
+                "selectorButtonGap": 10
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e09\u9762\u5019\u9009\u4eba50.0%",
+                        "\u4e00\u9762\u5019\u9009\u4eba35.0%",
+                        "\u63a5\u53d7offer64.2%",
+                        "\u4e8c\u9762\u5019\u9009\u4eba26.1%",
+                        "\u4e09\u9762\u60c5\u51b583.5%",
+                        "HR\u7b5b\u9009100%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 2785
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba35.0%",
+                            "value": 974
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba26.1%",
+                            "value": 254
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba50.0%",
+                            "value": 127
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b583.5%",
+                            "value": 106
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer64.2%",
+                            "value": 68
+                        }
+                    ],
+                    "min": 0,
+                    "max": 2785,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e09\u9762\u60c5\u51b584.7%",
+                        "\u4e00\u9762\u5019\u9009\u4eba35.5%",
+                        "\u4e09\u9762\u5019\u9009\u4eba48.9%",
+                        "\u63a5\u53d7offer59.1%",
+                        "\u4e8c\u9762\u5019\u9009\u4eba27.8%",
+                        "HR\u7b5b\u9009100%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 3656
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba35.5%",
+                            "value": 1297
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba27.8%",
+                            "value": 360
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba48.9%",
+                            "value": 176
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b584.7%",
+                            "value": 149
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer59.1%",
+                            "value": 88
+                        }
+                    ],
+                    "min": 0,
+                    "max": 3656,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e8c\u9762\u5019\u9009\u4eba32.1%",
+                        "\u63a5\u53d7offer63.6%",
+                        "\u4e09\u9762\u5019\u9009\u4eba51.0%",
+                        "\u4e00\u9762\u5019\u9009\u4eba34.6%",
+                        "HR\u7b5b\u9009100%",
+                        "\u4e09\u9762\u60c5\u51b584.6%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 459
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba34.6%",
+                            "value": 159
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba32.1%",
+                            "value": 51
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba51.0%",
+                            "value": 26
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b584.6%",
+                            "value": 22
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer63.6%",
+                            "value": 14
+                        }
+                    ],
+                    "min": 0,
+                    "max": 459,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e09\u9762\u5019\u9009\u4eba50.0%",
+                        "\u4e09\u9762\u60c5\u51b5100.0%",
+                        "\u4e8c\u9762\u5019\u9009\u4eba9.1%",
+                        "HR\u7b5b\u9009100%",
+                        "\u4e00\u9762\u5019\u9009\u4eba36.7%",
+                        "\u63a5\u53d7offer42.9%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 420
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba36.7%",
+                            "value": 154
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba9.1%",
+                            "value": 14
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba50.0%",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b5100.0%",
+                            "value": 7
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer42.9%",
+                            "value": 3
+                        }
+                    ],
+                    "min": 0,
+                    "max": 420,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e09\u9762\u5019\u9009\u4eba42.4%",
+                        "\u63a5\u53d7offer62.6%",
+                        "\u4e8c\u9762\u5019\u9009\u4eba27.7%",
+                        "\u4e00\u9762\u5019\u9009\u4eba34.6%",
+                        "\u4e09\u9762\u60c5\u51b583.5%",
+                        "HR\u7b5b\u9009100%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 2680
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba34.6%",
+                            "value": 928
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba27.7%",
+                            "value": 257
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba42.4%",
+                            "value": 109
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b583.5%",
+                            "value": 91
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer62.6%",
+                            "value": 57
+                        }
+                    ],
+                    "min": 0,
+                    "max": 2680,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4e8c\u9762\u5019\u9009\u4eba26.7%",
+                        "\u63a5\u53d7offer61.3%",
+                        "\u4e09\u9762\u60c5\u51b584.3%",
+                        "\u4e00\u9762\u5019\u9009\u4eba35.1%",
+                        "\u4e09\u9762\u5019\u9009\u4eba47.5%",
+                        "HR\u7b5b\u9009100%"
+                    ],
+                    "selected": {},
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10
+                }
+            ],
+            "series": [
+                {
+                    "type": "funnel",
+                    "data": [
+                        {
+                            "name": "HR\u7b5b\u9009100%",
+                            "value": 10000
+                        },
+                        {
+                            "name": "\u4e00\u9762\u5019\u9009\u4eba35.1%",
+                            "value": 3512
+                        },
+                        {
+                            "name": "\u4e8c\u9762\u5019\u9009\u4eba26.7%",
+                            "value": 936
+                        },
+                        {
+                            "name": "\u4e09\u9762\u5019\u9009\u4eba47.5%",
+                            "value": 445
+                        },
+                        {
+                            "name": "\u4e09\u9762\u60c5\u51b584.3%",
+                            "value": 375
+                        },
+                        {
+                            "name": "\u63a5\u53d7offer61.3%",
+                            "value": 230
+                        }
+                    ],
+                    "min": 0,
+                    "max": 10000,
+                    "minSize": "0%",
+                    "maxSize": "100%",
+                    "orient": "vertical",
+                    "sort": "descending",
+                    "gap": 10,
+                    "legendHoverLink": true,
+                    "funnelAlign": "center",
+                    "label": {
+                        "show": true,
+                        "position": "inside",
+                        "margin": 8,
+                        "valueAnimation": false
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "enterable": false,
+                        "confine": false,
+                        "appendToBody": false,
+                        "transitionDuration": 0.4,
+                        "formatter": "{a} <br/>{b} : {c}\u4eba",
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5,
+                        "order": "seriesAsc"
+                    },
+                    "itemStyle": {},
+                    "selectedMode": false,
+                    "zlevel": 0,
+                    "z": 2,
+                    "markPoint": {
+                        "label": {
+                            "show": true,
+                            "position": "inside",
+                            "color": "#fff",
+                            "margin": 8,
+                            "valueAnimation": false
+                        },
+                        "data": [
+                            {
+                                "name": "\u6700\u5927\u503c",
+                                "type": "max"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "\u5404\u5c97\u4f4d\u62db\u8058\u8f6c\u5316\u7387",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        }
+    ]
+};
+        chart_20690c83c4ec4b7d92712ff2d0c6ca41.setOption(option_20690c83c4ec4b7d92712ff2d0c6ca41);
+    </script>
+</body>
+</html>
